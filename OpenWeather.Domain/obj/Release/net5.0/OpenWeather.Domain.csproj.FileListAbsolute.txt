@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\Repositorio Github\API_Tarea\OpenWeather.Domain\bin\Release\net5.0\OpenWeather.Domain.deps.json
+C:\Users\Administrator\Desktop\Repositorio Github\API_Tarea\OpenWeather.Domain\bin\Release\net5.0\OpenWeather.Domain.dll
+C:\Users\Administrator\Desktop\Repositorio Github\API_Tarea\OpenWeather.Domain\bin\Release\net5.0\OpenWeather.Domain.pdb
+C:\Users\Administrator\Desktop\Repositorio Github\API_Tarea\OpenWeather.Domain\obj\Release\net5.0\OpenWeather.Domain.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Repositorio Github\API_Tarea\OpenWeather.Domain\obj\Release\net5.0\OpenWeather.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Repositorio Github\API_Tarea\OpenWeather.Domain\obj\Release\net5.0\OpenWeather.Domain.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Repositorio Github\API_Tarea\OpenWeather.Domain\obj\Release\net5.0\OpenWeather.Domain.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Repositorio Github\API_Tarea\OpenWeather.Domain\obj\Release\net5.0\OpenWeather.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Repositorio Github\API_Tarea\OpenWeather.Domain\obj\Release\net5.0\OpenWeather.Domain.dll
+C:\Users\Administrator\Desktop\Repositorio Github\API_Tarea\OpenWeather.Domain\obj\Release\net5.0\refint\OpenWeather.Domain.dll
+C:\Users\Administrator\Desktop\Repositorio Github\API_Tarea\OpenWeather.Domain\obj\Release\net5.0\OpenWeather.Domain.pdb
+C:\Users\Administrator\Desktop\Repositorio Github\API_Tarea\OpenWeather.Domain\obj\Release\net5.0\ref\OpenWeather.Domain.dll
