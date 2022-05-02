@@ -20,9 +20,19 @@ namespace OpenWeather.Infraestructure.Repository
             {
                 string path = Path.GetFullPath("Weather.json").Replace(@AppSettings.PathDefault, string.Empty) + @AppSettings.DirectoryJson;
                 string json = JsonConvert.SerializeObject(objeto);
-                using (StreamWriter write = new StreamWriter(path))
+                using (Stream write = new FileStream(path,FileMode.Create,FileAccess.Write))
                 {
-                    write.Write(json);
+                    using(StreamWriter sw = new StreamWriter(write))
+                    {
+                        if(path.Length > 1)
+                        {
+                            sw.Write(String.Empty);
+                            sw.WriteLine(json);
+                        }
+                        
+
+                    }
+                    
                 }
             }
             catch (IOException)

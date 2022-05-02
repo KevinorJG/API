@@ -72,9 +72,8 @@ namespace OpenWeather.Infraestructure.Repository
                 {
                     Url = string.Format($"{AppSettings.ApiUrlOneCall}lat={lat}&lon={lon}&dt={dt}&appid={ AppSettings.Token}");
                     var Json = web.DownloadString(Url);
-                    var info = JsonConvert.DeserializeObject<Weather.Root>(Json);
+                    Weather.Root info = JsonConvert.DeserializeObject<Weather.Root>(Json);
                     RafContext.CreateJson(info);
-
                     return await Task.FromResult(info);
                 }
             }
