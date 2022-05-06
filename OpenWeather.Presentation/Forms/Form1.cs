@@ -27,6 +27,7 @@ namespace OpenWeather.Presentation.Forms
             RegionInfo Country = new RegionInfo("NI");
             services.Recibir(Country.DisplayName);
 
+            //llama a los servicios para efectuar la consulta
             var root = services.GetWather();
             var getIcon = services.GetIcon();
             var getForecast = weatherServices.GetForecast();
@@ -48,6 +49,7 @@ namespace OpenWeather.Presentation.Forms
             labelCiudad.Text = root.Result.name + " / " + root.Result.sys.country;
             labelLatitud.Text = getForecast.Result.lat; ;
             labelLongitud.Text = getForecast.Result.lon;
+            //convierte una dato UNIT a un dato en fecha
             dynamic dt = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
             dt = dt.AddSeconds(double.Parse(getForecast.Result.hourly[0].dt)).ToLocalTime();
             labelDt.Text = $"{dt}";
