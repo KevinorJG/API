@@ -39,20 +39,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
-            "RestClient": {
-              "target": "Package",
-              "version": "[3.747.13996, )"
-            },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[107.3.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

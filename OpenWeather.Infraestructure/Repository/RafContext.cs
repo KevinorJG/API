@@ -28,11 +28,8 @@ namespace OpenWeather.Infraestructure.Repository
                         {
                             sw.Write(String.Empty);
                             sw.WriteLine(json);
-                        }
-                        
-
+                        }                       
                     }
-                    
                 }
             }
             catch (IOException)
