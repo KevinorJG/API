@@ -28,7 +28,7 @@ namespace OpenWeather.Presentation.Forms
             services.Recibir(Country.DisplayName);
 
             //llama a los servicios para efectuar la consulta
-            var root = services.GetWather();
+            var root = services.GetWeather();
             var getIcon = services.GetIcon();
             var getForecast = weatherServices.GetForecast();
             REST(root, getIcon,getForecast);         
@@ -62,7 +62,7 @@ namespace OpenWeather.Presentation.Forms
                 try
                 {
                     services.Recibir(CityTexBox.Text);
-                    Task<City.Root> clima = services.GetWather();
+                    Task<City.Root> clima = services.GetWeather();
                     Task<string> icon = services.GetIcon();             
                     var foreCast= weatherServices.GetForecast();
 

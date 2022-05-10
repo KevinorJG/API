@@ -15,6 +15,7 @@ namespace OpenWeather.Infraestructure.Repository
 {
     public class ApiGetRepository : IModel<City.Root>,IWeatherModel<Weather.Root>
     {
+        #region Variables
         protected string Url = String.Empty;
         protected string city = String.Empty;
         protected string lat = String.Empty;
@@ -22,7 +23,9 @@ namespace OpenWeather.Infraestructure.Repository
         protected string dt = String.Empty;
         protected string icon = String.Empty;
         protected static List<City.Root> cities = new List<City.Root>();
+        #endregion
 
+        #region Metodos
         public async Task<string> GetIcon()
         {
             //Expresion que obtiene la id del Icono de dicho pais
@@ -39,7 +42,7 @@ namespace OpenWeather.Infraestructure.Repository
             }
         }
 
-        public async Task<City.Root> GetWather()
+        public async Task<City.Root> GetWeather()
         {
             try
             {
@@ -88,6 +91,6 @@ namespace OpenWeather.Infraestructure.Repository
         {          
             return this.city = city;
         }
-       
+        #endregion
     }
 }

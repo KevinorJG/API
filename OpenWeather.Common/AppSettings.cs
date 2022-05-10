@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Configuration;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.IdentityModel.Protocols;
-
+﻿using System.Configuration;
 
 namespace Common
 {

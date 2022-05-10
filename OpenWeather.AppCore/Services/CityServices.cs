@@ -21,9 +21,9 @@ namespace AppCore.Services
             return model.GetIcon();
         }
 
-        public Task<City.Root> GetWather()
+        public Task<City.Root> GetWeather()
         {
-            return model.GetWather();
+            return model.GetWeather();
         }
 
         public string Recibir(string city)

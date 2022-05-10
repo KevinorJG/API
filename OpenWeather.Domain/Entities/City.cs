@@ -5,7 +5,7 @@ namespace OpenWeather.Domain.Entities
     public class City
     {
 
-
+        #region Propertis
         public class coord
         {
             public string lon { get; set; }
@@ -59,6 +59,6 @@ namespace OpenWeather.Domain.Entities
             public string dt {get; set;}
             public string name { get; set; }
         }
-
+        #endregion
     }
 }

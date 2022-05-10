@@ -4,7 +4,7 @@ namespace AppCore.IServices
 {
     public interface IServices<T>
     {
-        Task<T> GetWather();
+        Task<T> GetWeather();
         Task<string> GetIcon();
         public string Recibir(string city);
     }

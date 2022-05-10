@@ -4,7 +4,7 @@ namespace OpenWaether.Domain.Interfaces
 {
     public interface IModel<T>
     {
-        Task<T> GetWather();
+        Task<T> GetWeather();
         Task<string> GetIcon();
         public string Recibir(string city);
 

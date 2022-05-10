@@ -8,6 +8,7 @@ namespace OpenWeather.Domain.Entities
 {
     public class Weather
     {
+        #region Propertis
         public class weather
         {
             public string main { get; set; }
@@ -45,5 +46,6 @@ namespace OpenWeather.Domain.Entities
 
 
         }
+        #endregion
     }
 }
